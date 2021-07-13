@@ -11,6 +11,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 public class UIActivity extends AppCompatActivity {
 
@@ -36,6 +37,14 @@ public class UIActivity extends AppCompatActivity {
             }
         });
 //        mSimpleviewpager = (ViewPager)findViewById(R.id.Adapter);
+
+        Button btn1 = findViewById(R.id.Button1);
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(UIActivity.this,"你这么无聊吗？",Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 
     @Override

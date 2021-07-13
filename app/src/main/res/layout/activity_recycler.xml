@@ -7,7 +7,7 @@
     tools:context=".Recycler">
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv"
-        android:background="#333333"
+        android:background="@mipmap/bkg1"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
